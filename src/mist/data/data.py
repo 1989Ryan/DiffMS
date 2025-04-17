@@ -6,7 +6,7 @@ import re
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
-from mist import utils
+from reward_model.diffms.src.mist import utils
 
 
 class Spectra(object):

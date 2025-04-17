@@ -14,9 +14,9 @@ from torch.utils.data.dataset import Dataset
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from mist import utils
-from . import featurizers
-from .data import Spectra, Mol
+from reward_model.diffms.src.mist import utils
+from reward_model.diffms.src.mist.data import featurizers
+from reward_model.diffms.src.mist.data import Spectra, Mol
 
 
 def get_paired_spectra(

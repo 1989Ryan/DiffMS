@@ -68,7 +68,7 @@ class SpectraEncoderGrowing(nn.Module):
         self,
         form_embedder: str = "float",
         output_size: int = 4096,
-        hidden_size: int = 50,
+        hidden_size: int = 64,
         spectra_dropout: float = 0.0,
         top_layers: int = 1,
         refine_layers: int = 0,
