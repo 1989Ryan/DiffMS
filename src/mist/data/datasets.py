@@ -16,7 +16,7 @@ from tqdm import tqdm
 
 from reward_model.diffms.src.mist import utils
 from reward_model.diffms.src.mist.data import featurizers
-from reward_model.diffms.src.mist.data import Spectra, Mol
+from reward_model.diffms.src.mist.data.data import Spectra, Mol
 
 
 def get_paired_spectra(
